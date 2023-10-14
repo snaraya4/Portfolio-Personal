@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      I'm a motivated software engineer with a Master's in Computer Science from Binghamton University and over 2 years of work experience. I specialize in full-stack development with React and Node.js.
+      I'm a motivated software engineer with a Master's in Computer Science from Binghamton University and over 2 years of industry work experience.
 
 I excel in the entire software development lifecycle, from requirements gathering to maintenance. I'm well-versed in OOP principles, design patterns, and Agile methodologies.
 
