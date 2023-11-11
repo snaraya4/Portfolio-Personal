@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import {AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { LuGraduationCap } from "react-icons/lu";
 import calculatorApp from "@/public/calculatorApp.png";
-import contactCard from "@/public/contactCard.png";
+import ecommerce from "@/public/ecommerce.png";
 import netflixClone from "@/public/netflixClone.png";
 import passwordGenerator from "@/public/passwordGenerator.png";
 import tictactoe from "@/public/tictactoe.png";
@@ -75,28 +75,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Real-time Weather App",
+    title: "Weather App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "CSS", "JavaScript"],
+      "Dynamic weather app: Enter any city to instantly view temperature, humidity, and wind speed details.",
+    tags: ["React.js", "API Integration", "HTML", "CSS", "JavaScript"],
     imageUrl: weatherApp,
-    gitLink:"",
+    gitLink:"https://snaraya4.github.io/Weather_App/",
   },
   {
     title: "Calculator App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "JavaScript", "Next.js", "CSS"],
+      "The Basic Calculator App provides a user-friendly interface for performing basic arithmetic operations. It offers real-time feedback and includes convenient features.",
+    tags: ["HTML", "JavaScript", "CSS"],
     imageUrl: calculatorApp,
     gitLink:"https://snaraya4.github.io/Calculator-App/",
   },
   {
-    title: "Contact Card",
+    title: "Ecommerce Website",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "CSS", "JavaScript"],
-    imageUrl: contactCard,
-    gitLink:"",
+      "An e-commerce website offering an online shopping experience with user authentication, cart management, and secure payment processing.",
+    tags: ["React.js", "HTML", "CSS", "JavaScript"],
+    imageUrl: ecommerce,
+    gitLink:"https://snaraya4.github.io/Ecommerce-Website/",
   },
   {
     title: "Netflix Clone",
@@ -109,18 +109,18 @@ export const projectsData = [
   {
     title: "Password Generator",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "CSS", "JavaScript"],
+      "Developed a user-friendly password generator app, offering one-click access to create secure 12-character passwords that enhances your online security effortlessly.",
+    tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: passwordGenerator,
-    gitLink:"",
+    gitLink:"https://snaraya4.github.io/Password-Generator/",
   },
   {
-    title: "Tic Tac Toe Online Game",
+    title: "Tic Tac Toe Game",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "CSS", "JavaScript"],
+      "Online Tic Tac Toe: Enjoy classic gameplay with friends in this web-based multiplayer experience.",
+    tags: ["React.js", "HTML", "CSS", "JavaScript"],
     imageUrl: tictactoe,
-    gitLink:"",
+    gitLink:"https://snaraya4.github.io/TicTacToe/",
   },
   
 ] as const;
