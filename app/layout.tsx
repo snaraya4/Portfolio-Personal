@@ -1,4 +1,5 @@
 import Header from "@/components/header";
+import Head from 'next/head';
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
@@ -12,6 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Sravya's Portfolio",
   description: "Sravya is a full-stack/ software developer.",
+  icon: "./favicon.ico", 
 };
 
 export default function RootLayout({
@@ -21,6 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name={metadata.title} content={metadata.description} />
+        <link rel="icon" href={metadata.icon} />
+        
+      </Head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
