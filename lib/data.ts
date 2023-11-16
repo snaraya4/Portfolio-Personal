@@ -120,7 +120,7 @@ export const projectsData = [
       "Online Tic Tac Toe: Enjoy classic gameplay with friends in this web-based multiplayer experience.",
     tags: ["React.js", "HTML", "CSS", "JavaScript"],
     imageUrl: tictactoe,
-    gitLink:"https://snaraya4.github.io/TicTacToe/",
+    gitLink:"https://github.com/snaraya4/TicTacToe-Game",
   },
   
 ] as const;
