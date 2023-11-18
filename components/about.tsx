@@ -19,13 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      I'm a motivated software engineer with a Master's in Computer Science from Binghamton University and over 2 years of industry work experience.
-
-I excel in the entire software development lifecycle, from requirements gathering to maintenance. I'm well-versed in OOP principles, design patterns, and Agile methodologies.
-
-I'm also skilled in creating responsive web applications and automation tools.
-
-I have a creative eye for web design, demonstrated by my projects. Committed to continuous learning, I'm confident in tackling complex challenges and delivering top-notch solutions.
+      I am a motivated <span className="font-semibold">Software Engineer</span> holding a <span className="font-semibold">Master's degree in Computer Science</span> from <span className="font-semibold">Binghamton University - SUNY</span>, accompanied by <span className="font-semibold">over 2 years of experience</span> in the industry. My expertise spans the <span className="font-semibold">entire software development lifecycle</span>, from adeptly gathering requirements to <span className="font-semibold">proficiently programming</span> and maintaining systems. I possess a strong command of <span className="font-semibold">Object-Oriented Programming (OOP) principles, design patterns, and Agile methodologies</span>. Additionally, I specialize in crafting <span className="font-semibold">responsive web applications</span> and developing <span className="font-semibold">automation tools</span>. My knack for <span className="font-semibold">creative web design</span> is evident through my <span className="font-semibold">project portfolio</span>. Committed to continual learning, I confidently <span className="font-semibold">tackle complex challenges</span>, delivering <span className="font-semibold">top-notch solutions</span>.
       </p>
 
       <p>
