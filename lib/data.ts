@@ -6,7 +6,7 @@ import calculatorApp from "@/public/calculatorApp.png";
 import ecommerce from "@/public/ecommerce.png";
 import netflixClone from "@/public/netflixClone.png";
 import passwordGenerator from "@/public/passwordGenerator.png";
-import tictactoe from "@/public/tictactoe.png";
+import memegenerator from "@/public/memegenerator.png.png";
 import weatherApp from "@/public/weatherApp.png";
 
 
@@ -115,12 +115,12 @@ export const projectsData = [
     gitLink:"https://snaraya4.github.io/Password-Generator/",
   },
   {
-    title: "Tic Tac Toe Game",
+    title: "Meme Generator",
     description:
-      "Online Tic Tac Toe: Enjoy classic gameplay with friends in this web-based multiplayer experience.",
+      "Create personalized memes using the online Meme Generator, then download and share them with friends instantly.",
     tags: ["React.js", "HTML", "CSS", "JavaScript"],
-    imageUrl: tictactoe,
-    gitLink:"https://github.com/snaraya4/TicTacToe-Game",
+    imageUrl: memegenerator,
+    gitLink:"https://snaraya4.github.io/Meme-Generator/",
   },
   
 ] as const;
