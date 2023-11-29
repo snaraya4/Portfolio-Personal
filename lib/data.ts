@@ -4,9 +4,9 @@ import {AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { LuGraduationCap } from "react-icons/lu";
 import calculatorApp from "@/public/calculatorApp.png";
 import ecommerce from "@/public/ecommerce.png";
-import netflixClone from "@/public/netflixClone.png";
+import texttospeech from "@/public/texttospeech.png";
 import passwordGenerator from "@/public/passwordGenerator.png";
-import memegenerator from "@/public/memegenerator.png.png";
+import memegenerator from "@/public/memegenerator.png";
 import weatherApp from "@/public/weatherApp.png";
 
 
@@ -99,12 +99,12 @@ export const projectsData = [
     gitLink:"https://snaraya4.github.io/Ecommerce-Website/",
   },
   {
-    title: "Netflix Clone",
+    title: "Text to Speech Converter",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "CSS", "JavaScript"],
-    imageUrl: netflixClone,
-    gitLink:"https://snaraya4.github.io/Netflix-Clone/",
+      "Experience diverse accents and regional slangs through my text-to-speech converter, providing a personalized audio rendition of written text.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: texttospeech,
+    gitLink:"https://snaraya4.github.io/Text-to-Speech-Converter/",
   },
   {
     title: "Password Generator",
